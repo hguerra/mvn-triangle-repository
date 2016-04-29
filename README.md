@@ -123,6 +123,7 @@ Now you´re almost done. Save your pom.xml file and the maven repository is upda
 
 ## Option 2
 
+```
 <dependencies>
     <dependency>
         <groupId>de.ifgi.nasa.wwj</groupId>
@@ -150,6 +151,8 @@ Now you´re almost done. Save your pom.xml file and the maven repository is upda
         <version>1.5</version>
     </dependency>
 </dependencies>
+
+```
 
 *for this mode, native libraries in <b>nativelibs-dependencies-option-2.zip</b> (Java 86x only)
 
