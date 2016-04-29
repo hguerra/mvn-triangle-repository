@@ -28,39 +28,6 @@ just copy what´s inside.
 After copying the repository you have to add the following dependencies also to the pom.xml file. Same as above if your pom.xml contains a dependencies tag just copy what´s inside.
 
 
-OR
-
-```
-<dependencies>
-    <dependency>
-        <groupId>de.ifgi.nasa.wwj</groupId>
-        <artifactId>gdal</artifactId>
-        <version>1.5</version>
-    </dependency>
-    <dependency>
-        <groupId>de.ifgi.nasa.wwj</groupId>
-        <artifactId>gluegen</artifactId>
-        <version>1.5</version>
-    </dependency>
-    <dependency>
-        <groupId>de.ifgi.nasa.wwj</groupId>
-        <artifactId>worldwind</artifactId>
-        <version>1.5</version>
-    </dependency>
-    <dependency>
-        <groupId>de.ifgi.nasa.wwj</groupId>
-        <artifactId>worldwindx</artifactId>
-        <version>1.5</version>
-    </dependency>
-    <dependency>
-        <groupId>de.ifgi.nasa.wwj</groupId>
-        <artifactId>jogl</artifactId>
-        <version>1.5</version>
-    </dependency>
-</dependencies>
-
-```
-
 ```
  <dependencies>
     <dependency>
@@ -152,3 +119,12 @@ OR
 ```
 
 Now you´re almost done. Save your pom.xml file and the maven repository is updating.
+
+
+###Java Native Library
+
+You can extract from the jar and set as the following example: http://wiki.lwjgl.org/wiki/Setting_Up_LWJGL_with_IntelliJ_IDEA
+
+<b>OR</b>
+
+Copy and paste the libraries within the Maven repository, as the examples in zip
