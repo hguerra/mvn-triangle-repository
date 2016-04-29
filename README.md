@@ -57,7 +57,7 @@ OR
         <artifactId>jogl</artifactId>
         <version>1.5</version>
     </dependency>
-<dependencies>
+</dependencies>
 
 ```
 
