@@ -27,6 +27,7 @@ just copy what´s inside.
 
 After copying the repository you have to add the following dependencies also to the pom.xml file. Same as above if your pom.xml contains a dependencies tag just copy what´s inside.
 
+## Option 1
 
 ```
  <dependencies>
@@ -120,6 +121,37 @@ After copying the repository you have to add the following dependencies also to 
 
 Now you´re almost done. Save your pom.xml file and the maven repository is updating.
 
+## Option 2
+
+<dependencies>
+    <dependency>
+        <groupId>de.ifgi.nasa.wwj</groupId>
+        <artifactId>gdal</artifactId>
+        <version>1.5</version>
+    </dependency>
+    <dependency>
+        <groupId>de.ifgi.nasa.wwj</groupId>
+        <artifactId>gluegen</artifactId>
+        <version>1.5</version>
+    </dependency>
+    <dependency>
+        <groupId>de.ifgi.nasa.wwj</groupId>
+        <artifactId>worldwind</artifactId>
+        <version>1.5</version>
+    </dependency>
+    <dependency>
+        <groupId>de.ifgi.nasa.wwj</groupId>
+        <artifactId>worldwindx</artifactId>
+        <version>1.5</version>
+    </dependency>
+    <dependency>
+        <groupId>de.ifgi.nasa.wwj</groupId>
+        <artifactId>jogl</artifactId>
+        <version>1.5</version>
+    </dependency>
+</dependencies>
+
+*for this mode, native libraries in <b>nativelibs-dependencies-option-2.zip</b> (Java 86x only)
 
 ###Java Native Library
 
